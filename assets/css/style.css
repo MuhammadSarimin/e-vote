@@ -1,0 +1,321 @@
+body { padding-right: 0 !important}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arial";
+    font-weight: 700;
+}
+
+.textP {
+  margin-bottom: 8px;
+}
+
+.intro-header {
+    color: #000;
+    background: url(../img/bg1.png) no-repeat center center;
+    background-size: fixed;
+}
+
+.intro-message {
+    position: relative;
+    padding-top:18%;
+    padding-bottom: 18%;
+}
+
+.intro-message > h1 {
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 124px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 60px;
+}
+
+.intro-divider {
+	margin-top: 0px;
+    margin-right: 580px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 4px;
+    border-top: 3px solid #000;
+}
+
+.intro-message > h3 {
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size:51px; 
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-message > h4 {
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size:32px; 
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+	.intro-header {
+    padding-top: 10%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0%;
+    color: #000;
+    background: url(../img/bg1.png) no-repeat center center;
+}
+
+    .intro-message {
+    	color: #000;
+        padding-top: 40%; 
+        padding-bottom: 40%;
+    }
+
+    .intro-message > h1 {
+
+    	margin-top: 0px;
+    	margin-right: 180px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+        font-size: 40px;
+    }
+
+    .intro-message > h3 {
+    	margin-top: 0px;
+    	margin-right: 175px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .intro-message > h4 {
+    	margin-top: 0px;
+    	margin-right: 180px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .intro-divider {
+    	border-top: 1px solid #fff;
+        width: 53%;
+    }
+}
+
+
+
+
+.motivation {
+  background: url(../img/poto2.png) no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 100px 0;
+  min-height:70%;
+  color:#ffffff;
+}
+
+.about .fig-profile {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto 0;
+  position: relative;
+  overflow: hidden !important;
+  border: 12px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.about .fig-profile:hover figcaption {
+  opacity: 1;
+  webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #000;
+}
+.about .fig-profile figcaption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  line-height: 180px;
+  opacity: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 100%;
+  webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #fff;
+  font-size: 24px;
+}
+.about .name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+.about .caption{
+    font-size:16px;
+    }
+
+.about .position {
+  margin: 0;
+}
+.about .location {
+  margin: 5px 0 20px 0;
+}
+.about .slogan {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.about p {
+  font-size: 16px;
+}
+
+
+/* Motivation
+============================================ */
+.caption2{
+	padding-bottom: 17px;
+	padding-top: 30px;
+    font-size:18px;
+    }
+
+
+/* Title Divider
+============================================ */
+.title-divider {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.hr-divider {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  float: left;
+  bottom: -4px;
+}
+.icon-separator {
+  float: left;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 18px;
+  color: #F34336;
+  padding: 0;
+}
+.heading-divider {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  display: flex;
+}
+.heading-divider .title {
+  flex-grow: 0;
+  -webkit-flex-grow: 0;
+  margin: 0 5px 0 0;
+  line-height: 1px;
+}
+.heading-divider .line-separator {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  height: 6px;
+  position: relative;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 52px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 7px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998; /*#3B5998*/
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5; /*#007bb5*/
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000; /*#bb0000*/
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688; /*#125688*/
+  color: white;
+}
+
+
+/* FOOTER
+============================================ */
+.footer-basic-centered {
+    background-color: #061a38;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: #c5c5c5;
+    font: normal 16px sans-serif;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+p {
+    margin: -9px 0 0;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+}
+
+@media (min-width: 1200px){
+.container2 {
+    width: 1170px;
+}
+}
+
+@media (min-width: 992px){
+.container2 {
+    width: 970px;
+}
+
+}
+
+@media (min-width: 768px){
+.container2 {
+    width: 550px;
+}
+
+}
